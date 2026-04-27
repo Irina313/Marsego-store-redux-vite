@@ -1,0 +1,223 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background: rgb(239, 229, 229);
+  padding: 15px;
+  font-family: "Libertinus Serif Display", system-ui;
+  font-weight: 50px;
+}
+
+.link {
+padding: 10px 40px;
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+
+.product-info {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(207, 195, 195);
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+ }
+
+.back {
+  
+  padding: 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Libertinus Serif Display", system-ui;
+  font-weight: 570;
+  font-size: 35px;
+}
+  
+.change {
+  background-color: rgb(143, 138, 138);
+  color: black;
+  padding: 10px;
+  border: none;
+  font-family: "Libertinus Serif Display", system-ui;
+  font-size: 18px;
+  border-radius: 9px;
+  margin-right: 20px;
+}
+
+.change:hover{
+  background-color: rgb(89, 55, 59);
+  color: white
+}
+
+button {
+  margin: 10px;
+}
+
+.main {
+  background: url(main.jpg);
+  background-size: cover;
+  height: 88vh;
+  width: 100%;
+  
+}
+
+.contact {
+  font-family: "Libertinus Serif Display", system-ui;
+  font-size: 20px;
+  margin-left: 42%;
+  margin-top: 10px;
+}
+
+.btn {
+  font-family: "Libertinus Serif Display", system-ui;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 17px;
+  margin-top: 35%;
+  margin-left: 42%;
+  color: azure;
+  width: 15%;
+  border-color: azure;
+}
+
+.about {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+
+.pic {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+ }
+
+.click {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-color: rgb(99, 85, 85);
+  color: beige;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.size {
+  width: 140px;
+  height: 65vh;
+  margin-left: 45%;
+  margin-top: 15px;
+}
+
+.textOrder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.discount {
+  font-family: "Libertinus Serif Display", system-ui;
+  background-color: rgb(197, 217, 167);
+  
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 35%;
+  margin-left: 2%;
+  margin-right: 10%;
+  color: black;
+  width: 8%;
+  border-color: transparent;
+}
+
+.cartIcon {
+  width: 40px;
+}
+.icon {
+  width: 20px;
+}
+
+
+@media all and (max-width: 800px) {
+  body{
+    background-color: rgb(207, 195, 195);
+  }
+
+  .link {
+    padding: 5px 10px;
+  
+    text-transform: uppercase;
+    }
+
+    .change {
+      background-color: rgb(143, 138, 138);
+      padding: 7px;
+      border: none;
+      font-family: "Libertinus Serif Display", system-ui;
+      font-size: 12px;
+      border-radius: 9px;
+    }
+    .pic {
+      width: 250px;
+    }
+
+    .about {
+      font-size: 15px;
+    }
+
+    .size {
+      width: 100px;
+      height: 65vh;
+    }
+
+    .main {
+      background: url(mainM.jpg);
+      background-size: cover;
+      height: 85vh;
+      width: 100%;
+    }
+
+    .btn {
+      padding: 10px;
+      font-size: 12px;
+      margin-top: 65%;
+      margin-left: 42%;
+      width: 25%;
+    }
+    .discount {
+      padding: 10px;
+      font-size: 12px;
+      margin-top: 35%;
+      margin-left: 2%;
+      margin-right: 10%;
+      width: 25%;
+    }
+
+  }
