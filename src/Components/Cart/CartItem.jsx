@@ -11,7 +11,7 @@ const clothes = data.find(item => item.id === cartItem.itemId)
 console.log(clothes)
 
     return (<div>
-     
+     <img src={clothes.image} width="90px"/>
     <h4>{clothes.nameClothes}</h4>
     <p>{cartItem.quantity} item(s)</p>
     <p>Price: ${clothes.price*cartItem.quantity}</p>

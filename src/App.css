@@ -165,6 +165,43 @@ button {
 }
 
 
+.selectedButton {
+  background-color: rgb(217, 241, 173);
+  color: black;
+  padding: 6px;
+  font-family: "Libertinus Serif Display", system-ui;
+  font-size: 13px;
+  border-radius: 4px;
+}
+.sizeButton {
+  background-color: rgb(154, 150, 150);
+  color: black;
+  padding: 6px;
+  border: none;
+  font-family: "Libertinus Serif Display", system-ui;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.buttonPlus {
+  background-color: rgb(211, 208, 208);
+  color: black;
+  padding: 6px;
+  font-family: "Libertinus Serif Display", system-ui;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.AddToCart {
+  background-color: rgb(211, 208, 208);
+  color: black;
+  padding: 6px;
+  font-family: "Libertinus Serif Display", system-ui;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 20%;
+}
+
 @media all and (max-width: 800px) {
   body{
     background-color: rgb(207, 195, 195);

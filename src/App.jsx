@@ -29,7 +29,7 @@ return (
 <Link to="/contact" className="link">Contact  Us</Link>
 <Link to="/individual" className="link">Individual order</Link>
 <Link to="/about" className="link">About Us</Link>
-<Link to="/cart"><img className="cartIcon" src="https://img.icons8.com/?size=100&id=21823&format=png&color=000000"/> </Link>
+<Link to="/cart"><img className="cartIcon" src="https://img.icons8.com/?size=100&id=21823&format=png&color=000000"/></Link>
 </nav>
 
 <Suspense fallback={<LoaderPage/>}>

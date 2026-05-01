@@ -1,8 +1,11 @@
-const Size = () => {
+const Size = ({selected, setSelected, selectedM, setSelectedM, selectedL, setSelectedL}) => {
+
     return (<div>
-<button>S</button>
-<button>M</button>
-<button>L</button>
+
+<button className={selected ? "selectedButton" : "sizeButton"} onClick={() =>setSelected(!selected)}>S</button>
+<button className={selectedM ? "selectedButton" : "sizeButton"} onClick={() =>setSelectedM(!selectedM)}>M</button>
+<button className={selectedL ? "selectedButton" : "sizeButton"} onClick={() =>setSelectedL(!selectedL)}>L</button>
+
     </div>)
 }
 

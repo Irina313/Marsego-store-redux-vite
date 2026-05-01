@@ -13,6 +13,7 @@ export const slice = createSlice({
                 itemId: action.payload.item.id,
                 quantity: action.payload.quantity,
                 totalPrice: action.payload.quantity*action.payload.item.price
+                                
             })
         },
         
