@@ -1,12 +1,20 @@
-const Size = ({selected, setSelected, selectedM, setSelectedM, selectedL, setSelectedL}) => {
+const Size = ({value, onChange}) => {
 
-    return (<div>
+    const sizes = ["s", "m", "l"];
 
-<button className={selected ? "selectedButton" : "sizeButton"} onClick={() =>setSelected(!selected)}>S</button>
-<button className={selectedM ? "selectedButton" : "sizeButton"} onClick={() =>setSelectedM(!selectedM)}>M</button>
-<button className={selectedL ? "selectedButton" : "sizeButton"} onClick={() =>setSelectedL(!selectedL)}>L</button>
-
-    </div>)
-}
+    return (
+        <div>
+            {sizes.map((size) => (
+               <button  
+                    key={size}
+                    className={value === size ? "selectedButton" : "sizeButton"}
+                    onClick={() => onChange(size)}
+                    >
+                        {size.toUpperCase()}
+                    </button>
+            ))}
+    </div>
+    );
+};
 
 export default Size;
