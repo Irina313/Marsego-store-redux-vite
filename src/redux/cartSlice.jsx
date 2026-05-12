@@ -11,7 +11,7 @@ export const slice = createSlice({
             
             state.cartItems.push({
                 id: timeId,
-                itemId: action.payload.item.id,
+                itemId: action.payload.id,
                 quantity: action.payload.quantity,
                 size: action.payload.size,
                 totalPrice: action.payload.quantity*action.payload.item.price
