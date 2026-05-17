@@ -6,14 +6,15 @@ import { removeItemFromCart } from "../../redux/cartSlice";
 const CartItem = ({cartItem}) => {
 
 const dispatch = useDispatch();    
-    
+
 const clothes = data.find(item => item.id === cartItem.itemId)
-console.log(clothes)
+
 
     return (<div>
-     <img src={clothes.image} width="90px"/>
+    <img src={clothes.image} width="90px"/>
     <h4>{clothes.nameClothes}</h4>
     <p>{cartItem.quantity} item(s)</p>
+    <p>Size: {cartItem.size}</p>
     <p>Price: ${clothes.price*cartItem.quantity}</p>
     <span onClick = { () => dispatch(removeItemFromCart({cartItemId:cartItem.id}))}>
     <img className="icon" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png"/> 

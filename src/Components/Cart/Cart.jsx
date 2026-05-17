@@ -8,7 +8,7 @@ const cartItems = useSelector(getCartItems);
 const totalPrice = useSelector(getTotalPrice)
 
     return (<div>
-        {cartItems.map(cartItem => <CartItem cartItem={cartItem} key={cartItem}/> )}
+        {cartItems.map(cartItem => <CartItem cartItem={cartItem} key={cartItem.id}/> )}
         <h3>TOTAL: ${totalPrice}</h3>
 
     </div>)
