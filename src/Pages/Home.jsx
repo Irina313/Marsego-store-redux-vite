@@ -20,6 +20,6 @@ const handleAlert = () => {
      <Link to="/shop"><button className="btn">Looking Collection</button></Link>  
      <button className="discount" onClick={handleAlert}>Get 15% OFF</button>
     </div>
-    }
+   }
     
     export default Store;

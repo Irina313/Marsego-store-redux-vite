@@ -1,0 +1,26 @@
+.active {
+    padding: 10px 30px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-family: "Libertinus Serif Display", system-ui;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+     
+}
+
+.default {
+    padding: 10px 30px;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+    font-family: "Libertinus Serif Display", system-ui;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.content {
+    padding: 50px 30px;
+}

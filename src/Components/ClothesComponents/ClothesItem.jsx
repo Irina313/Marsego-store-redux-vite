@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ChangeQuantity from "../Cart/ChangeQuantity";
-import Size from "../Cart/Size";
+import ChangeQuantity from "../../Pages/Cart/ChangeQuantity";
+import Size from "../../Pages/Cart/Size";
 import { addItemToCart } from "../../redux/cartSlice";
 import { useDispatch } from "react-redux";
 

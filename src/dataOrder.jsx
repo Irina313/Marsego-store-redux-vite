@@ -1,11 +1,11 @@
-import orderOne from './pictureOrder/orderOne.jpg'
-import orderTwo from './pictureOrder/orderTwo.jpg'
-import orderThree from './pictureOrder/orderThree.jpg'
-import orderFour from './pictureOrder/orderFour.jpg'
-import orderFive from './pictureOrder/orderFive.jpg'
-import orderSix from './pictureOrder/orderSix.jpg'
-import orderSeven from './pictureOrder/orderSeven.jpg'
-import orderEight from './pictureOrder/orderEight.jpg'
+import orderOne from './assets/pictureOrder/orderOne.jpg'
+import orderTwo from './assets/pictureOrder/orderTwo.jpg'
+import orderThree from './assets/pictureOrder/orderThree.jpg'
+import orderFour from './assets/pictureOrder/orderFour.jpg'
+import orderFive from './assets/pictureOrder/orderFive.jpg'
+import orderSix from './assets/pictureOrder/orderSix.jpg'
+import orderSeven from './assets/pictureOrder/orderSeven.jpg'
+import orderEight from './assets/pictureOrder/orderEight.jpg'
 
 
 export const dataOrder=[

@@ -71,7 +71,7 @@ button {
 }
 
 .main {
-  background: url(main.jpg);
+  background: url('./assets/main.jpg');
   background-size: cover;
   height: 88vh;
   width: 100%;
@@ -235,7 +235,7 @@ button {
     }
 
     .main {
-      background: url(mainM.jpg);
+      background: url('./assets/mainM.jpg');
       background-size: cover;
       height: 85vh;
       width: 100%;

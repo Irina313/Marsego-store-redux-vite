@@ -6,15 +6,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
-import Individual from './Individual';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Individual from './Pages/Individual';
 import LoaderPage from './Loader/LoaderPage';
-import Cart from './Components/Cart/Cart';
+import Cart from './Pages/Cart/Cart';
 
 
-const ShopLazy=React.lazy(() => import('./Shop'));
+const ShopLazy=React.lazy(() => import('./Pages/Shop'));
 
 function App() {
 
@@ -44,7 +44,8 @@ return (
 </Suspense>
 
 </Router>
-  );
+
+);
 }
 
 export default App;

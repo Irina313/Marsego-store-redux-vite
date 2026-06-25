@@ -1,18 +1,18 @@
-import one from './pictureCollection/one.jpg';
-import two from './pictureCollection/two.jpg';
-import three from './pictureCollection/three.jpg';
-import four from './pictureCollection/four.jpg';
-import five from './pictureCollection/five.jpg';
-import six from './pictureCollection/six.jpg';
-import seven from './pictureCollection/seven.jpg';
-import eight from './pictureCollection/eight.jpg';
-import nine from './pictureCollection/nine.jpg';
-import ten from './pictureCollection/ten.jpg';
-import eleven from './pictureCollection/eleven.jpg';
-import twelve from './pictureCollection/twelve.jpg';
-import thirteen from './pictureCollection/thirteen.jpg';
-import fourteen from './pictureCollection/fourteen.jpg';
-import fifteen from './pictureCollection/fifteen.jpg';
+import one from './assets/pictureCollection/one.jpg';
+import two from './assets/pictureCollection/two.jpg';
+import three from './assets/pictureCollection/three.jpg';
+import four from './assets/pictureCollection/four.jpg';
+import five from './assets/pictureCollection/five.jpg';
+import six from './assets/pictureCollection/six.jpg';
+import seven from './assets/pictureCollection/seven.jpg';
+import eight from './assets/pictureCollection/eight.jpg';
+import nine from './assets/pictureCollection/nine.jpg';
+import ten from './assets/pictureCollection/ten.jpg';
+import eleven from './assets/pictureCollection/eleven.jpg';
+import twelve from './assets/pictureCollection/twelve.jpg';
+import thirteen from './assets/pictureCollection/thirteen.jpg';
+import fourteen from './assets/pictureCollection/fourteen.jpg';
+import fifteen from './assets/pictureCollection/fifteen.jpg';
 
 
  export const data = [

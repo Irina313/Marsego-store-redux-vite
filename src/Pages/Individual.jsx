@@ -1,5 +1,5 @@
-import { dataOrder } from "./dataOrder";
-import './App';
+import { dataOrder } from "../dataOrder";
+import '../App';
 import { useState } from "react";
 
 

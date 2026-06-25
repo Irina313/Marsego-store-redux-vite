@@ -1,4 +1,4 @@
-import about from './about.jpg';
+import about from '../assets/about.jpg';
 
 function About() {
 return (<div>
